@@ -4,29 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Episodios</title>
+    <title>Episodios - Dr. House Fan Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <div style="display: flex; align-items: center; justify-content: space-between;">
-            <div style="text-align: left;">
-                <h1>Episodios</h1>
-                <p>Esta página contiene información sobre los episodios de Dr. House.</p>
-            </div>
-            <img src="images/logo.png" alt="Logo Dr. House" style="height: 80px; margin-left: 30px;">
+    <header class="top-bar">
+        <div class="top-bar-container">
+            <img src="images/logo.png" alt="Logo Dr. House" class="logo">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="personajes.html">Personajes</a></li>
+                    <li><a href="episodios.html">Episodios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <nav>
-        <ul style="list-style: none; display: flex; justify-content: center; gap: 20px; padding: 0;">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="personajes.html">Personajes</a></li>
-            <li><a href="episodios.html">Episodios</a></li>
-        </ul>
-    </nav>
     <div style="max-width: 600px; margin: 30px auto; text-align: center;">
         <h2>Trailer Temporada 1</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/1OZ3-K0f1zA" title="House M.D. Season 1 Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="page-header">
+        <h1>Episodios</h1>
+        <p>Descubre algunos episodios destacados de la serie Dr. House.</p>
     </div>
     <ul style="max-width: 600px; margin: 30px auto; font-size: 1.1em;">
         <li><a href="http://imdb.com/title/tt0606035/?ref_=ttep_ep_1" target="_blank">Pilot</a></li>
