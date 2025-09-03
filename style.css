@@ -200,3 +200,34 @@ p {
     padding: 0.625rem 0.5rem;
     vertical-align: middle;
 }
+
+@media (max-width: 600px) {
+    .top-bar-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+    }
+    .nav-links li {
+        width: 100%;
+        text-align: left;
+    }
+    .page-header,
+    .main-description,
+    .footer {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .episodios-table-container,
+    .personajes-table {
+        overflow-x: auto;
+        width: 100%;
+    }
+    .episodios-table,
+    .personajes-table {
+        min-width: 400px;
+    }
+}
