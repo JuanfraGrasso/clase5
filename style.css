@@ -1,8 +1,3 @@
-html,
-body {
-    height: 100%;
-}
-
 body {
     font-family: Arial, sans-serif;
     background: #e0e0e0;
@@ -18,16 +13,12 @@ h1 {
     color: #2c3e50;
     font-family: 'Roboto', Arial, sans-serif;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 p {
     text-align: center;
     font-size: 1.2em;
-}
-
-main {
-    flex: 1;
 }
 
 .top-bar {
@@ -40,26 +31,27 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
+    flex-wrap: wrap;
 }
 
 .logo {
-    height: 60px;
+    height: 3.75rem;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     margin: 0;
     padding: 0;
 }
 
 .nav-links li {
-    padding: 8px 16px;
-    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
     transition: background 0.2s;
 }
 
@@ -76,28 +68,28 @@ main {
 
 .page-header {
     text-align: left;
-    max-width: 1000px;
-    margin: 30px auto 0 auto;
-    padding: 0 20px;
+    max-width: 62.5rem;
+    margin: 1.875rem auto 0 auto;
+    padding: 0 1.25rem;
 }
 
 .page-header p div {
-    max-width: 900px;
-    margin: 30px auto;
+    max-width: 56.25rem;
+    margin: 1.875rem auto;
 }
 
 .main-image {
-    max-width: 300px;
+    max-width: 18.75rem;
     width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 0.625rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.15);
     display: block;
     margin: 0 auto;
 }
 
 .main-description {
-    margin-top: 20px;
-    max-width: 600px;
+    margin-top: 1.25rem;
+    max-width: 37.5rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -105,21 +97,23 @@ main {
 
 .footer {
     text-align: center;
-    margin-top: 40px;
-    padding: 20px 0;
+    margin-top: 2.5rem;
+    padding: 1.25rem 0;
     background: #bdbdbd;
     color: #333;
 }
 
 .personajes-section {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     text-align: center;
+    overflow-x: auto;
+    width: 100%;
 }
 
 .personajes-table {
     margin: 0 auto;
     border-collapse: separate;
-    border-spacing: 30px 10px;
+    border-spacing: 1.875rem 0.625rem;
 }
 
 .personajes-table td {
@@ -127,33 +121,33 @@ main {
 }
 
 .personaje-img {
-    width: 120px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5);
+    width: 7.5rem;
+    border-radius: 0.625rem;
+    box-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.5);
 }
 
 .contact-section {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .contact-textbox {
     width: 80%;
-    max-width: 500px;
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
+    max-width: 31.25rem;
+    padding: 0.625rem;
+    border-radius: 0.5rem;
+    border: 0.0625rem solid #ccc;
     font-size: 1em;
     resize: vertical;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .contact-btn {
     background: #2c3e50;
     color: #fff;
     border: none;
-    border-radius: 6px;
-    padding: 10px 24px;
+    border-radius: 0.375rem;
+    padding: 0.625rem 1.5rem;
     font-size: 1em;
     cursor: pointer;
     font-weight: bold;
@@ -165,27 +159,29 @@ main {
 }
 
 .episodios-table-container {
-    max-width: 900px;
-    margin: 30px auto;
+    max-width: 56.25rem;
+    margin: 1.875rem auto;
 }
 
-.episodio-nombre {
+.video-container {
+    max-width: 37.5rem;
+    margin: 1.875rem auto;
     text-align: center;
 }
 
 .episodio-img {
-    width: 80px;
-    height: 55px;
-    border-radius: 8px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+    width: 5rem;
+    height: 3.4375rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.12);
 }
 
 .episodios-table {
     width: 100%;
-    max-width: 900px;
-    margin: 30px auto;
+    max-width: 56.25rem;
+    margin: 1.875rem auto;
     border-collapse: collapse;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.08);
 }
 
 .episodios-table tr {
@@ -196,11 +192,11 @@ main {
 .episodios-table th {
     background: #333;
     color: #fff;
-    padding: 12px 8px;
+    padding: 0.75rem 0.5rem;
     text-align: center;
 }
 
 .episodios-table td {
-    padding: 10px 8px;
+    padding: 0.625rem 0.5rem;
     vertical-align: middle;
 }
